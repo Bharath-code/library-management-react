@@ -1,0 +1,33 @@
+h1, p {
+  font-family: Lato;
+}
+
+.newDiv{
+  position:fixed;
+  bottom:5px;
+  right:5%;
+}
+
+.newButton{
+ background-color: tomato;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+  text-decoration: none;
+}
+
+.container {  
+  padding:15px;
+  width:50%;
+  margin:15px;
+}
+
+@media screen and (max-width: 586px) {
+  #main{
+    flex-direction: column;
+  }
+}
+
