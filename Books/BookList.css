@@ -18,6 +18,7 @@
   float:right;  
   margin-left: 10px;
   color: orangered;
+  cursor: pointer;
 }
 .inputStyle{
    width: 100%;
