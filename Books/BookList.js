@@ -28,7 +28,7 @@ class BookList extends React.Component{
     //console.log(this.props)
     return(
      <div className="container">
-      <h3 > Book Library</h3>  
+      <h3 >Library Management System</h3>  
       <input type="text" className="inputStyle" value={this.state.search} name="search" onChange={this.handleChange} placeholder="search" />   
       {this.renderList()}
     </div> 
